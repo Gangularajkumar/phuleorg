@@ -1,0 +1,4 @@
+<?php if(!isset($pageTitle)) $pageTitle='PACPET'; ?>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?=e($pageTitle)?> | PACPET</title><meta name="description" content="PACPET — Phule-Ambedkar Centre for Philosophy and English Training, Tellapur."><link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="site-header"><div class="container nav"><a class="brand" href="index.php"><span>P</span>ACPET</a><button class="menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button><nav id="nav"><a href="index.php">Home</a><a href="about.php">About</a><a href="programmes.php">Programmes</a><a href="residential.php">Residential</a><a href="faculty.php">Faculty</a><a href="student-registration.php">Students</a><a href="publications.php">Publications</a><a href="gallery.php">Gallery</a><a href="contact.php">Contact</a></nav></div></header>
+<main>
